@@ -181,3 +181,9 @@ a {
     padding-left: 25px;
 }
 
+/* reveal dropdown container on hover */
+.dropdown-parent:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
