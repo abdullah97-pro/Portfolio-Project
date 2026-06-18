@@ -290,8 +290,16 @@ a {
     border: 2px solid #050505;
     margin-left: -12px;
     object-fit: cover;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
 }
 
 .avatar-group img:first-child {
     margin-left: 0;
+}
+
+.avatar-group img:hover {
+    margin-left: 0;
+    z-index: 1000;
+    transform: scale(1.5);
 }
