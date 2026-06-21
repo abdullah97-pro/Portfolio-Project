@@ -303,3 +303,41 @@ a {
     z-index: 1000;
     transform: scale(1.5);
 }
+
+/* stats bar */
+.stats-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #222;
+    padding: 40px 8% 10px 8%;
+    margin-top: 20px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.stat-icon {
+    width: 45px;
+    height: 45px;
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.stat-item h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.stat-item p {
+    font-size: 12px;
+    color: var(--text-muted);
+}
