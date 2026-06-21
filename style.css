@@ -401,3 +401,63 @@ a {
     font-size: 16px;
 }
 
+/* About Imagery & shapes */
+.about-image-wrapper {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arch-bg {
+    width: 380px;
+    height: 450px;
+    background-color: var(--primary-green);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.exp-badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #000;
+    border-radius: 30px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
+}
+
+.exp-badge h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.exp-badge p {
+    font-size: 11px;
+    color: var(--text-muted);
+    line-height: 1.2;
+}
+
+.deco-circle {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(90deg, #000 50%, var(--primary-green) 50%);
+    border-radius: 50%;
+}
